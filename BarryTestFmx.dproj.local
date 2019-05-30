@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/22 00:39:01.000.346,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/22 00:40:06.000.721,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit1.fmx=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/05/22 00:40:06.000.721,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit1.pas=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/22 00:40:30.000.726,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTestFmx.dproj=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/05/23 00:32:10.000.339,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit2.pas</Transaction>
+    <Transaction>2019/05/23 00:32:47.000.402,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit1.pas=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Main.pas</Transaction>
+    <Transaction>2019/05/23 00:32:47.000.402,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit1.fmx=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Main.fmx</Transaction>
+    <Transaction>2019/05/25 22:23:58.000.283,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\Unit2.pas=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\uScanner.pas</Transaction>
+    <Transaction>2019/05/27 15:12:34.000.683,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\default.txaPackage</Transaction>
+    <Transaction>2019/05/27 15:12:41.000.627,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:30:22.000.912,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\uScanner\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:30:34.000.697,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\BarryTestFmx\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:32:00.000.946,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\Unit2.pas</Transaction>
+    <Transaction>2019/05/27 15:33:19.000.145,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\Unit2.pas=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\uOutputResult.pas</Transaction>
+    <Transaction>2019/05/27 15:33:34.000.640,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\uOutputResult\default.txaPackage</Transaction>
+    <Transaction>2019/05/27 15:33:34.000.964,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\Main\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:33:34.000.990,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\uOutputResult\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:34:08.000.375,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\Unit2\default.txvpck</Transaction>
+    <Transaction>2019/05/27 15:34:08.000.495,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\Unit2\default.txaPackage</Transaction>
+    <Transaction>2019/05/27 15:40:48.000.760,c:\users\mykas_000\documents\embarcadero\studio\projects\barryhurd\fmx\barrytest\modelsupport_barrytestfmx\unit2\default.txvpck=</Transaction>
+    <Transaction>2019/05/27 15:40:48.000.826,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\Unit2\default.txaPackage=</Transaction>
+    <Transaction>2019/05/28 22:06:22.000.044,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 22:29:39.000.457,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\uControl.pas=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\Unit1.pas</Transaction>
+    <Transaction>2019/05/29 03:35:40.000.279,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\default.txaPackage</Transaction>
+    <Transaction>2019/05/29 03:40:15.000.420,C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\default.txaPackage=</Transaction>
+    <Transaction>2019/05/29 10:46:08.000.962,=C:\Users\mykas_000\Documents\Embarcadero\Studio\Projects\BarryHurd\FMX\BarryTest\ModelSupport_BarryTestFmx\default.txaPackage</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

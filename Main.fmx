@@ -1,0 +1,186 @@
+object frmWebScan: TfrmWebScan
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 528
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 528.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object grpbxOutput: TGroupBox
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Output'
+      TabOrder = 0
+      object grdResult: TStringGrid
+        CanFocus = True
+        ClipChildren = True
+        Position.X = 16.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 593.000000000000000000
+        Size.Height = 153.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 573.000000000000000000
+        Viewport.Height = 128.000000000000000000
+        object StringColumn1: TStringColumn
+          Header = 'URL'
+          Size.Width = 250.000000000000000000
+        end
+        object StringColumn2: TStringColumn
+          Header = 'Pattern'
+        end
+        object StringColumn3: TStringColumn
+          Header = 'Count'
+        end
+      end
+    end
+    object GroupBox1: TGroupBox
+      Align = Top
+      Size.Width = 640.000000000000000000
+      Size.Height = 273.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Input'
+      TabOrder = 1
+      object btnAdd: TButton
+        Enabled = False
+        Position.X = 351.000000000000000000
+        Position.Y = 65.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Add'
+        OnClick = btnAddClick
+      end
+      object btnScan: TButton
+        Enabled = False
+        Position.X = 439.000000000000000000
+        Position.Y = 134.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'SCAN'
+        OnClick = btnScanClick
+      end
+      object lstbxURL: TListBox
+        Position.X = 16.000000000000000000
+        Position.Y = 89.000000000000000000
+        Size.Width = 337.000000000000000000
+        Size.Height = 152.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 333.000000000000000000
+        Viewport.Height = 148.000000000000000000
+      end
+      object edtPattern: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        Position.X = 432.000000000000000000
+        Position.Y = 65.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnTyping = edtPatternTyping
+        OnKeyDown = edtPatternKeyDown
+      end
+      object edtURL: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 6
+        Position.X = 16.000000000000000000
+        Position.Y = 65.000000000000000000
+        Size.Width = 337.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        OnTyping = edtURLTyping
+        OnKeyDown = edtURLKeyDown
+      end
+      object Label1: TLabel
+        Position.X = 16.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Enter URL'
+        TabOrder = 7
+      end
+      object Label2: TLabel
+        Position.X = 432.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Find pattern'
+        TabOrder = 8
+      end
+      object btnSave: TButton
+        Enabled = False
+        Position.X = 439.000000000000000000
+        Position.Y = 182.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'SAVE'
+        OnClick = btnSaveClick
+      end
+      object btnClear: TButton
+        Enabled = False
+        Position.X = 368.000000000000000000
+        Position.Y = 134.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Clear'
+        OnClick = btnClearClick
+      end
+    end
+    object statusBarWeb: TStatusBar
+      Position.Y = 506.000000000000000000
+      ShowSizeGrip = True
+      Size.Width = 640.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lblsbWeb: TLabel
+        Align = Left
+        Size.Width = 340.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object ProgBar: TProgressBar
+        ClipChildren = True
+        Max = 60.000000000000000000
+        Orientation = Horizontal
+        Position.X = 359.000000000000000000
+        Size.Width = 241.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object progBarTimer: TTimer
+    Enabled = False
+    OnTimer = progBarTimerTimer
+    Left = 488
+    Top = 224
+  end
+end
